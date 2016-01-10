@@ -800,7 +800,7 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #b5b5b5;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -825,11 +825,15 @@ call-to-action .button {
    float: left;
    color: #ebeeee;
 }
+#contact h2 {
+  font-size: 22px;
+  color: #EBEEEE;
+}
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
    color: #EBEEEE;
-   margin-bottom: 6px;
+   margin-bottom: 10px;
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
@@ -851,22 +855,23 @@ call-to-action .button {
 #contact input,
 #contact textarea,
 #contact select {
-   padding: 18px 20px;
-	color: #eee;
-	background: #373233;
-	margin-bottom: 42px;
-	border: 0;
-	outline: none;
-   font-size: 15px;
+   padding: 8px 10px;
+	 color: #191919;
+	 background: #fff;
+	 margin-bottom: 42px;
+	 border: 0;
+   border-radius: 5px;
+	 outline: none;
+   font-size: 16px;
    line-height: 24px;
    width: 65%;
 }
-#contact input:focus,
+/*#contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
 	background-color: #11ABB0;
-}
+}*/
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -881,10 +886,10 @@ call-to-action .button {
 }
 #contact button.submit:hover {
 	color: #0D0D0D;
-	background: #fff;
+	background: #16F4D0;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #16F4D0;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -943,7 +948,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #16F4D0; }
 
 /* copyright */
 footer .copyright {
@@ -1011,5 +1016,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #16F4D0; }
 
